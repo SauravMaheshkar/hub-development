@@ -1,0 +1,6 @@
+hub:
+  image: python:3.6
+  working_dir: /workspace
+  volumes:
+       - ./:/workspace
+  command: pip install -r requirements-dev.txt && pip install -e /workspace
