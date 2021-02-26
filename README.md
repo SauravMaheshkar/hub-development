@@ -21,7 +21,7 @@ myenv\Scripts\activate.bat
 git clone --recurse-submodules https://github.com/SauravMaheshkar/hub-development.git
 cd hub-development
 git submodule init && git submodule update
-git checkout <feature-name>
+git checkout -b <branch_name>
 pip install -r requirements.txt
 ```
 
