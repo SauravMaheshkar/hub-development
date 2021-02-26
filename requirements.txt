@@ -1,0 +1,5 @@
+# Install dependencies for Hub
+-r ./Hub/requirements-dev.txt
+
+# Install Hub in development Mode
+-e ./Hub
